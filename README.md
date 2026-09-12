@@ -8,7 +8,13 @@ A native menu bar app showing your remaining five-hour and weekly Codex allowanc
 
 The two compact rows show your **remaining allowance**: **5-hour** on top and **Weekly** below. The values above are an example from the screenshot; the widget fetches your own account’s usage.
 
-Click either row to open the details panel:
+### Details panel
+
+Click either row to open the details panel.
+
+<img src="Assets/details-panel.png" alt="Codex Usage details panel showing allowance bars, reset times, last update, refresh interval, Refresh now, and Quit controls" width="382">
+
+The panel includes:
 
 - **Usage bars:** see the percentage used and remaining for each allowance.
 - **Reset times:** see when each window resets, in your Mac’s local timezone.

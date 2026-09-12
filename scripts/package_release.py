@@ -22,7 +22,7 @@ def main():
     assert 'UsagePythonPath' not in info
     sources = ['LICENSE', 'README.md', 'SHARING.md', '.gitignore', 'build.sh', 'install.sh',
                'Sources/main.swift', 'scripts/fetch_usage.py', 'scripts/package_release.py',
-               'tests/test_fetch_usage.py', 'Assets/AppIcon.png', 'Assets/menu-bar-widget.png']
+               'tests/test_fetch_usage.py', 'Assets/AppIcon.png', 'Assets/menu-bar-widget.png', 'Assets/details-panel.png']
     app_files = [(APP / p, f'Codex Usage.app/{p}') for p in sorted(ALLOWED)]
     app_files.append((ROOT / 'SHARING.md', 'READ ME.md'))
     app_files.append((ROOT / 'LICENSE', 'LICENSE'))
