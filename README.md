@@ -2,6 +2,19 @@
 
 A native menu bar app showing your remaining five-hour and weekly Codex allowances. Click the menu bar item for usage bars, reset dates in your Mac's local timezone, and refresh controls.
 
+## Usage at a glance
+
+![Codex Usage in the macOS menu bar, showing 0% of the five-hour allowance and 84% of the weekly allowance remaining](Assets/menu-bar-widget.png)
+
+The two compact rows show your **remaining allowance**: **5-hour** on top and **Weekly** below. The values above are an example from the screenshot; the widget fetches your own account’s usage.
+
+Click either row to open the details panel:
+
+- **Usage bars:** see the percentage used and remaining for each allowance.
+- **Reset times:** see when each window resets, in your Mac’s local timezone.
+- **Refresh controls:** refresh immediately or choose a 1, 5, 15, 30, or 60-minute interval.
+- **Update status:** see the last refresh time and a warning if an update fails.
+
 ## Download
 
 [Download Codex Usage 1.1 for macOS](downloads/Codex-Usage-1.1-macOS.zip?raw=true) · [Source ZIP](downloads/Codex-Usage-1.1-source.zip?raw=true)
